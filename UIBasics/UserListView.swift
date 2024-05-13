@@ -8,8 +8,27 @@
 import SwiftUI
 
 struct UserListView: View {
+    @State var names = ["Dev", "Nisha", "harry"]
+    @State var nameAdded = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            List {
+                ForEach(0..<names.count, id:\.self) { item in
+                    Text(names[item])
+                }
+            }
+            // TextField("Add Name", $nameAdded)
+            TextField("Add", text: $nameAdded)
+                .autocorrectionDisabled()
+                .onSubmit {
+                    if(!nameAdded.isEmpty) {
+                        names.append(nameAdded)
+                        nameAdded = ""
+                    }
+                }
+        }
+        .padding()
+        
     }
 }
 

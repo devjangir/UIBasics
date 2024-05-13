@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90165DD72BF1EF9E00B3FB44 /* DataListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90165DD62BF1EF9E00B3FB44 /* DataListView.swift */; };
+		90165DD92BF1F04400B3FB44 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90165DD82BF1F04400B3FB44 /* DataModel.swift */; };
+		90165DDB2BF1F06700B3FB44 /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90165DDA2BF1F06700B3FB44 /* DataViewModel.swift */; };
+		90165DDD2BF207D200B3FB44 /* DataItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90165DDC2BF207D200B3FB44 /* DataItemListView.swift */; };
+		90636D3C2BEB9C50004A0E0D /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90636D3B2BEB9C50004A0E0D /* WelcomeView.swift */; };
+		90636D3E2BEBE8DC004A0E0D /* FeaturesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90636D3D2BEBE8DC004A0E0D /* FeaturesPage.swift */; };
+		90636D402BEBE8F9004A0E0D /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90636D3F2BEBE8F9004A0E0D /* FeatureCard.swift */; };
+		90636D422BEBEB93004A0E0D /* WeatherDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90636D412BEBEB93004A0E0D /* WeatherDayView.swift */; };
+		90786C832BEC9ECA009240B8 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90786C822BEC9ECA009240B8 /* DiceView.swift */; };
+		90786C852BECA845009240B8 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90786C842BECA845009240B8 /* UserListView.swift */; };
 		90AD7F212BEB6BBE0082AB2F /* UIBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AD7F202BEB6BBE0082AB2F /* UIBasicsApp.swift */; };
 		90AD7F232BEB6BBE0082AB2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AD7F222BEB6BBE0082AB2F /* ContentView.swift */; };
 		90AD7F252BEB6BC70082AB2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90AD7F242BEB6BC70082AB2F /* Assets.xcassets */; };
@@ -14,6 +24,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90165DD62BF1EF9E00B3FB44 /* DataListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataListView.swift; sourceTree = "<group>"; };
+		90165DD82BF1F04400B3FB44 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		90165DDA2BF1F06700B3FB44 /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
+		90165DDC2BF207D200B3FB44 /* DataItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItemListView.swift; sourceTree = "<group>"; };
+		90636D3B2BEB9C50004A0E0D /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		90636D3D2BEBE8DC004A0E0D /* FeaturesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesPage.swift; sourceTree = "<group>"; };
+		90636D3F2BEBE8F9004A0E0D /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		90636D412BEBEB93004A0E0D /* WeatherDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDayView.swift; sourceTree = "<group>"; };
+		90786C822BEC9ECA009240B8 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		90786C842BECA845009240B8 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		90AD7F1D2BEB6BBE0082AB2F /* UIBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90AD7F202BEB6BBE0082AB2F /* UIBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBasicsApp.swift; sourceTree = "<group>"; };
 		90AD7F222BEB6BBE0082AB2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +52,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90165DD52BF1EF7900B3FB44 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				90165DD62BF1EF9E00B3FB44 /* DataListView.swift */,
+				90165DD82BF1F04400B3FB44 /* DataModel.swift */,
+				90165DDA2BF1F06700B3FB44 /* DataViewModel.swift */,
+				90165DDC2BF207D200B3FB44 /* DataItemListView.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		90165DDE2BF21A0E00B3FB44 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		90AD7F142BEB6BBD0082AB2F = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +89,16 @@
 		90AD7F1F2BEB6BBE0082AB2F /* UIBasics */ = {
 			isa = PBXGroup;
 			children = (
+				90165DDE2BF21A0E00B3FB44 /* New Group */,
+				90165DD52BF1EF7900B3FB44 /* Networking */,
 				90AD7F202BEB6BBE0082AB2F /* UIBasicsApp.swift */,
 				90AD7F222BEB6BBE0082AB2F /* ContentView.swift */,
+				90636D412BEBEB93004A0E0D /* WeatherDayView.swift */,
+				90636D3B2BEB9C50004A0E0D /* WelcomeView.swift */,
+				90636D3D2BEBE8DC004A0E0D /* FeaturesPage.swift */,
+				90636D3F2BEBE8F9004A0E0D /* FeatureCard.swift */,
+				90786C822BEC9ECA009240B8 /* DiceView.swift */,
+				90786C842BECA845009240B8 /* UserListView.swift */,
 				90AD7F242BEB6BC70082AB2F /* Assets.xcassets */,
 				90AD7F262BEB6BC70082AB2F /* Preview Content */,
 			);
@@ -138,7 +184,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				90AD7F232BEB6BBE0082AB2F /* ContentView.swift in Sources */,
+				90636D3E2BEBE8DC004A0E0D /* FeaturesPage.swift in Sources */,
+				90636D422BEBEB93004A0E0D /* WeatherDayView.swift in Sources */,
+				90786C852BECA845009240B8 /* UserListView.swift in Sources */,
+				90636D3C2BEB9C50004A0E0D /* WelcomeView.swift in Sources */,
+				90165DDD2BF207D200B3FB44 /* DataItemListView.swift in Sources */,
+				90165DD92BF1F04400B3FB44 /* DataModel.swift in Sources */,
 				90AD7F212BEB6BBE0082AB2F /* UIBasicsApp.swift in Sources */,
+				90165DD72BF1EF9E00B3FB44 /* DataListView.swift in Sources */,
+				90786C832BEC9ECA009240B8 /* DiceView.swift in Sources */,
+				90165DDB2BF1F06700B3FB44 /* DataViewModel.swift in Sources */,
+				90636D402BEBE8F9004A0E0D /* FeatureCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

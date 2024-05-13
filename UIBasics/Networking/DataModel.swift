@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct DataModel {
+    let id: Int
+    let name: String
+}

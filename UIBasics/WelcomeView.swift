@@ -9,7 +9,24 @@ import SwiftUI
 
 struct WelcomeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            ZStack {
+                Rectangle()
+                    .frame(width: 150, height: 150)
+                    .cornerRadius(20)
+                .foregroundStyle(.tint)
+                Image(systemName: "figure.2.and.child.holdinghands")
+                    .font(.system(size: 75))
+                    .foregroundStyle(.white)
+            }
+            Text("Welcome to MyApp")
+                .font(.title)
+                .fontWeight(.semibold)
+                .padding(.top)
+            Text("Description text")
+        }
+        .padding()
+        
     }
 }
 
